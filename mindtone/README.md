@@ -1,100 +1,71 @@
-<p align="center">
-  <img src="/docs/animation/animation.gif" width="150">
-</p>
-<h1 align="center">Mobile App Landing Page Template</h1>
-<p>
-  <a href="/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="MIT"></a>
-  <a href="https://medium.com/@sandoche" target="_blank"><img src="https://badgen.net/badge/icon/medium?icon=medium&label" alt="medium: sandoche"></a>
-  <a href="https://twitter.com/sandochee">
-    <img alt="Twitter: sandochee" src="https://img.shields.io/twitter/follow/sandochee.svg?style=social" target="_blank" />
-  </a>
-</p>
+# [Start Bootstrap - New Age](https://startbootstrap.com/theme/new-age/)
 
-📱 Free to use static generated landing page template for your mobile app
+[New Age](https://startbootstrap.com/theme/new-age/) is a web app landing page theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
-## 💡 Features
-Mobile App Landing Page Template comes with pre-installed features and options:
-- Display app icon
-- Show unlimited app screenshots
-- Link to Google Play
-- Link to the AppStore
-- Link to the Web App
-- Press mention section
-- Product Hunt floating prompt
-- Privacy policy Page
-- Google Analytics
-- Cookie Consent
-- Automatic dark theme
-- Doorbell widget
-- Github forking banner
+## Preview
 
-## ✨ Demo
-Check out websites using the Mobile App Template:
-- https://mobileapplandingpage.learn.uno (demo website)
-- https://gitnews.learn.uno
-- https://textblast.learn.uno
-- https://infinideas.learn.uno
-- https://www.therandominion.com/
+[![New Age Preview](https://assets.startbootstrap.com/img/screenshots/themes/new-age.png)](https://startbootstrap.github.io/startbootstrap-new-age/)
 
-## 📖 How to use
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-new-age/)**
 
-### The normal way
+## Status
 
-1. Fork this project
-2. Edit `_config.yml`, feel free to commut/uncomment what you need (google analtytics, or github for example)
-3. Edit `_data/app.yml` with your app data
-4. Update the text from `_data/strings.yml`, you can customize there the footer's links
-5. Edit icons and screenshots inside the `_images` folder and `icon.png` in the root
-6. Edit `_src/index.js` to update the product hunt modal (or to remove it) and to remove the darkmode plugin if you don't want it
-7. Deploy (on netlify, gitpages or surge, they are all free)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-new-age/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-new-age.svg)](https://www.npmjs.com/package/startbootstrap-new-age)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-new-age/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-new-age)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-new-age/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-new-age?type=dev)
 
-### The no-code way
+## Download and Installation
 
-1. Go to https://t3mpl.n4no.com/editor/#manifest=../templates/mobile-app-landing-page/template.yaml
-2. Edit the settings on the left part
-3. Click on the `Publish` button then `Save Webpage as .zip`
-4. Unzip and upload the folder to your server (you can drag'n'drop it in Netlify to host it there for free)
+To begin using this template, choose one of the following options to get started:
 
-## ⚙️ How to run
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/new-age/)
+* Install via npm: `npm i startbootstrap-new-age`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-new-age.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-new-age)
 
-### Pre-requisites
-- NodeJS
-- Ruby, Bundler
+## Usage
 
-### Install
-```
-npm install
-bundler install
-```
+### Basic Usage
 
-### Development
-```
-npm start
-```
+After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Build
-```
-npm run build
-```
+### Advanced Usage
 
-### Deploy to netlify (for free)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sandoche/Mobile-app-landingpage-template)
+Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-### More documentation
-This templates uses [Jekyll-webpack-boilerplate](https://github.com/sandoche/Jekyll-webpack-boilerplate), read more documentation there.
+#### npm Scripts
 
-## 🤝 Contributing
-Contributions, issues and feature requests are welcome!
+* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
+* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
+* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
+* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
+* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
+* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
+* `npm run start:debug` runs the project in debug mode
+* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
-## ⭐️ Show your support
-Please ⭐️ this repository if this project helped you!
+You must have npm installed in order to use this build environment.
 
-<a href="https://www.patreon.com/sandoche">[![patreon.png](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/sandoche)</a>
+## Bugs and Issues
 
-## 🍺 Buy me a beer 
-If you like this project, feel free to donate:
-* PayPal: https://www.paypal.me/kanbanote
-* Bitcoin: 19JiNZ1LkMaz57tewqJaTg2hQWH4RgW4Yp
-* Ethereum: 0xded81fa4624e05339924355fe3504ba9587d5419
-* Monero: 43jqzMquW2q989UKSrB2YbeffhmJhbYb2Yxu289bv7pLRh4xVgMKj5yTd52iL6x1dvCYs9ERg5biHYxMjGkpSTs6S2jMyJn
-* Motive: MOTIV-25T5-SD65-V7LJ-BBWRD (Get Motive Now: https://motive.network)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/new-age/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+
+* <https://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE) license.
